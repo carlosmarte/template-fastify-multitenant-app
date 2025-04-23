@@ -1,0 +1,22 @@
+{
+  "name": "@internal/client",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@internal/shared": "*",
+    "jwt-decode": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router-dom": "*",
+    "uninstall": "^0.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*",
+    "vite": "*"
+  }
+}

@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: db_f9a8c3d1e5b7
+      POSTGRES_USER: pw_8e4a19cb76d
+      POSTGRES_PASSWORD: pw_1234b5c6789
+    ports:
+      - "5438:5438"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
+    driver: local
